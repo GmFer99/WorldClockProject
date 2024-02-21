@@ -1,5 +1,5 @@
 const getDateAndTime = async (timezone) => {
-    const response = await fetch('https://cors-anywhere.herokuapp.com/https://worldtimeapi.org/api/timezone/' + timezone, {
+    const response = await fetch('https://worldtimeapi.org/api/timezone/' + timezone, {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json'

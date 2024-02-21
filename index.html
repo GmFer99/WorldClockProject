@@ -4,26 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Clock</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<script src="js/app.js"></script>
 
 <body>
     <h1 class="msg">World Clock</h1>
     <p class="dsc">Click one of the buttons to see the current time</p>
 
     <div class="container">
-        <button class="btn">Eastern Standard Time (EST)</button>
-        <button class="btn">Coordinated Central European Time (CET)</button>
-        <button class="btn">Universal Time (UTC)</button>
+        <button class="btn" id="parisTime">Paris Time (CET)</button>
+        <button class="btn" id="saoPauloTime">Sao Paulo Time (BRT)</button>
+        <button class="btn" id="sanFranciscoTime">San Francisco Time (PST)</button>
+
         <p id="date" class="clock"></p>
         <p id="time" class="clock"></p>
         <p id="timeZone" class="clock"></p>
     </div>
     
-
-    <noscript>You need to enable JavaScript to view the full site.</noscript>
-    
+   
+    <script src="app.js"></script>
+    <NOscript>You need to enabe JavaScript to view the ful site.</NOscript>
 </body>
 </html>
